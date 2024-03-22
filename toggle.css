@@ -1,0 +1,50 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    transition: 2s;
+}
+.button{
+    height:10vh;
+    width:25vh;
+    background-color: rgb(115, 118, 115);
+    border-radius:100px;
+    transition: 2s ;
+    margin-left: 60vw;
+}
+.circle{
+    height:10vh;
+    width:10vh;
+    border-radius: 100px;
+    background-color: rgb(156, 156, 140);
+    backdrop-filter: 0px 0px 30pxrgb(10, 10, 10);
+    filter: drop-shadow(2px 2px 30px black);
+    transform: 2s;
+}
+h1::after{
+    content:' BUTTON';
+    color: red;
+    font-weight: 1000px;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(29, 30, 30);
+    margin-left:10px;
+    
+}
+.header{
+    height:13vh;
+    width:100vw;
+    display: flex;
+}  
+.view{
+    height: 100vh;
+    width:100vw;
+} 
+.circle:active{
+    transform: scale(1.5);
+}
+   
